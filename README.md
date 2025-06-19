@@ -1,5 +1,3 @@
-# Fase_4_CAP3-Sklearn-
-
 # FIAP - Faculdade de Informática e Administração Paulista
 
 <p align="center">
@@ -21,13 +19,25 @@
 
 # Análise e Modelos
 
-Nessa Fase 4, aprimoramos nosso sensores. Adicionamos um display LCD, para mostrar em tempo real os valores lidos.
-Utilizamos o Serial Plotter para visualizar graficamente de forma rápida os valores, diretamente de nosso sistema físico.
-Melhoramos a performance de memória de nosso ESP32, utilizando váriaves com tipos especificos e mais precisos para cada utilização.
-
-Nossa aplicação na fase anterior:
+Nesse trabalho realizamos uma análise e tratamento dos dados do Dataset "Seeds" em UCI Machine Learning Repository: <https://archive.ics.uci.edu/dataset/236/seeds>.
+Realizamos análises gráficas
 
 <p align="center">
-<img src="assets/wokwi_1.jpg" ></a>
+<img src="assets/irAlem.png" ></a>
 </p>
 
+<p align="center">
+<img src="assets/irAlem2.png" ></a>
+</p>
+
+Separamos os dados em treino e testes, e utilizamos cinco modelos para prever a classe de cada semente:
+
+K-Nearest Neighbors (KNN);
+Support Vector Machine (SVM);
+Random Forest;
+Naive Bayes;
+Logistic Regression.
+
+<p align="center">
+<img src="assets/irAlem3.png" ></a>
+</p>
